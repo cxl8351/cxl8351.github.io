@@ -1,0 +1,56 @@
+/*
+    ISTE.140 - Project
+    Kyoto, Japan - Nintendo
+    navigation.css
+*/
+/* Displays the the list horizontally, and removes the dots*/
+#menu ul{
+    flex-direction: row;
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Formats the navigation buttons so that they have rounded corners*/
+#menu li{
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: lightgrey;
+    list-style-type: none;
+}
+/*  Simply changes the border color to red on hover.*/
+#menu li:hover{
+    border-color: #E60012;
+}
+/* Targets the text content of the list items*/
+#menu li a{
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+/*  This css block changes the rectangle border when you hover
+    over a navigation link into rounded corners.*/
+#menu li a:hover{
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#menu a.is-current{
+    border-radius: 25px;
+    background-color: #E60012;
+    color: white;
+}
+
+/*  Given a threshold of a width of 415px,
+    change the menu into a vertical list.*/
+@media (max-width: 415px) {
+	#menu ul, #menu li { display: block; } 
+}

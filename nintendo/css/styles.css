@@ -1,0 +1,241 @@
+/*
+	ISTE.140 - Project
+    Kyoto, Japan - Nintendo
+    styes.css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+
+h1{
+    float: left;
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+.top_img{
+    background-color: #e60012;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.top_img img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+}
+
+ul { 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+
+img {
+    border-radius: 5px;
+}
+
+img.active {
+    box-shadow: 0 0 2px 2px rgba(124, 124, 124, 0.25);
+    z-index: 1;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 960px;
+	width: 90%;
+}
+
+.container h1{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+/* #####################  CAROUSEL CSS ##################### */
+/* This wraps the slick slider in a container for center-alignment */
+.carousel-container{
+    margin: auto;
+    width: 1089px;
+    padding: 10px;
+}
+
+/* Remove all formatting applied to the slider imgs */
+.carousel-container img{
+    width: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+/* Change the background color of the arrows to be black.*/
+.slick-prev::before, .slick-next::before{
+    color: black;
+}
+/*########################################################### */
+
+
+h1{
+    text-align: center;
+}
+
+article{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#sora img, #metroid img{
+    float: left;
+    padding-right: 40px;
+}
+
+#warioware img, #nick img{
+    float: right;
+    padding-left: 40px;
+}
+
+#brief img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+}
+
+#top5{
+    text-align: center;
+}
+
+#brief{
+    margin-top: 15%;
+}
+
+#brief p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#sources{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#sources ul{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#sources li{
+    list-style-type: none;
+}
+
+#sources a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#mario_article{
+    padding-bottom: 0px;
+}
+
+#mario_article img{
+    float: left;
+    padding-right: 40px;
+    margin-top: 3%;
+}
+
+
+#gameboy img{
+    float: right;
+    padding-left: 40px;
+}
+
+#debate1{
+    padding-bottom: 0px;
+}
+
+#debate1 img{
+    float: left;
+    padding-right: 40px;
+}
+
+#debate2{
+    margin-top: 5%;
+}
+
+#debate2 img{
+    float: right;
+    padding-left: 40px;
+}
+
+#debate2 h2{
+    text-align: right;
+    padding-right: 200px;
+}
+
+.evo_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+td{
+    text-align: center;
+    padding: 7px;
+    font-size: 1.1em;
+}
+
+th{
+    font-size: 1.2em;
+}
+
+/* ##################### MOBILE CSS ##################### */
+@media(max-width: 415px){
+
+    .container {
+        display: block;
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Reset the figure and set their max-width to 100%
+       of the container*/
+    figure {
+		float: none;
+		margin-left: initial;
+		padding: 0;
+		margin: 0;
+        max-width: 100%;
+	}
+
+    /* Reset images and set their max-width to 100%
+       of the container*/
+    img{
+        float: none;
+		margin-left: initial;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    #overflow-table{
+        overflow-y: scroll;
+    }
+    
+}
