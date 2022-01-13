@@ -1,0 +1,67 @@
+/*
+    navigation.css
+    Christopher Lee
+    ISTE.140
+    Final Practical
+*/
+
+/* Displays the entire list horizontally, and removes the dots*/
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-content: stretch;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    list-style-type: none;
+
+}
+/* Decorate the list items specifically*/
+#nav-bar li {
+    display: block;
+    flex: 1 1 auto;
+    background: lightgrey;
+	font-size: 25px;
+}
+
+/* Targets the text content of the list items*/
+#nav-bar li a{
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+#nav-bar a:hover{
+    box-shadow: 5px 10px 8px #888888;
+    background-color: #5B7399;
+    color: white;
+}
+
+#nav-bar a.is-current{
+    background-color: #3E4E69;
+    color: white;
+}
+/* Changes is-current nav-bar to red when on P5 */
+#nav-bar #nav-p5 a.is-current{
+    background-color: red;
+}
+/* Changes is-current nav-bar to yellow when on P4 */
+#nav-bar #nav-p4 a.is-current{
+    background-color: yellow;
+    color: black;
+}
+/* Changes is-current nav-bar to blue when on P3 */
+#nav-bar #nav-p3 a.is-current{
+    background-color: blue;
+}
+
+/*  Given a threshold of a width of 415px,
+    change the menu into a vertical list.*/
+@media (max-width: 770px) {
+    #nav-bar  ul, #nav-bar  li {
+        padding: 0;
+        display: block; 
+    } 
+}

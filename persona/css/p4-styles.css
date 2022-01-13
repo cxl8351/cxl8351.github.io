@@ -1,0 +1,66 @@
+/*
+    p4-styles.css
+    Christopher Lee
+    ISTE.140
+    Final Practical
+*/
+
+/* Subpage CSS */
+#p4{
+    border: 25px solid yellow;
+    background-color: #FF9802;
+    color: #FFFFEE;
+    margin-bottom: 30px;
+}
+
+#p4 p{
+    color: black;
+}
+
+/* Forces the img width to be contained in the container */
+#p4 img{
+    box-shadow: 10px 12px 4px #FB7602;
+
+    float: none;
+    margin-left: initial;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+#p4 h1{
+    color: black;
+}
+
+#p4_bg{
+    float: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    position: relative;
+    background-image:url(../media/p4/p4_team.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+
+/* Homepage CSS */
+#home_p4{
+    display: inline-block;
+}
+
+#home_p4 img{
+    margin: 25px;
+    float: right;
+}
+
+#home_p4 p{
+    margin-top: 100px;
+    float: none;
+    clear: none;
+}

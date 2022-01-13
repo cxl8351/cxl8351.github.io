@@ -1,0 +1,57 @@
+/*
+    p5-styles.css
+    Christopher Lee
+    ISTE.140
+    Final Practical
+*/
+
+/* Subpage CSS */
+#p5{
+    border: 25px solid red;
+    background-color: #2B2B2B;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Forces the img width to be contained in the container */
+#p5 img{
+    float: none;
+    margin-left: initial;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+#p5_bg{
+    float: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    position: relative;
+    background-image:url(../media/p5/keyart.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+
+/* Homepage CSS */
+#home_p5{
+    display: inline-block;
+}
+
+#home_p5 img{
+    float: left;
+    margin: 25px;
+    box-shadow: 10px 12px 4px black;
+}
+
+#home_p5 p{
+    padding-left: 25%;
+    float: none;
+    clear: none;
+}

@@ -1,0 +1,57 @@
+/*
+    p3-styles.css
+    Christopher Lee
+    ISTE.140
+    Final Practical
+*/
+
+/* Subpage CSS */
+#p3{
+    border: 25px solid blue;
+    background-color: #1E5081;
+    color: white;
+}
+
+/* Forces the img width to be contained in the container */
+#p3 img{
+    box-shadow: 10px 12px 4px #13283D;
+
+    float: none;
+    margin-left: initial;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+#p3_bg{
+    float: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    position: relative;
+    background-image:url(../media/p3/p3_sees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+
+/* Homepage CSS */
+#home_p3{
+    display: inline-block;
+}
+
+#home_p3 img{
+    float: left;
+    margin: 25px;
+}
+
+#home_p3 p{
+    padding-left: 25%;
+    float: none;
+    clear: none;
+}
