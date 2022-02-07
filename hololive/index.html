@@ -1,111 +1,55 @@
-<!doctype html>
+<!DOCTYPE html> <!-- Tell the browser that this is an HTML file-->
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lab 17 - Hololive</title>
         
-
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/navigation.css">
-        <link rel="stylesheet" href="css/forms.css">
-        <link rel='stylesheet' href='http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css'>
-        <link rel='stylesheet' href='sss/sss.css'>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <title>
+            hololive - Student Website!
+        </title>
     </head>
 
-	<body>
-        <nav class="menu">
+    <body>
+        
+        <header>
+            <div id="header_bg">
+
+            </div>
+        </header>
+
+        
+        <nav id="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="overview.html">Overview</a> </li>
-                <li><a href="history.html">History </a> </li>
-                <li><a href="business.html">Business </a> </li>
-                <li><a href="talents.html">Talents </a> </li>
+                <li><a href="talents.html">Talents</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="business.html">Business</a></li>
             </ul>
         </nav>
+        
 
-		<div class="bg">
-			<section class="lead overlay" id="desc">
-			</section>
-		</div>
-
-        <section id="index">
-            <div class="slider">
-                <img src='images/watson_portrait.png' alt="Amelia Watson Portrait"></img>
-                <img src='images/watson_alt_portrait.jpg' alt="Amelia Watson Alternate Portrait"></img>
-            </div>
-
-            <div id="accordion">
-                <h2>Amelia Watson, ace detective reporting!</h2>
-                <p>Watson Amelia is an English Virtual YouTuber associated with hololive, debuting as part of its English (EN) branch.</p>
-                <h2>Gen-mates!</h2>
-                <ul>
-                    <li>Mori Calliope (森カリオペ)</li>									
-                    <li>Takanashi Kiara (小鳥遊キアラ)</li>									
-                    <li>Ninomae Ina'nis (一伊那尓栖)</li>									
-                    <li>Gawr Gura (がうる・ぐら)</li>
-                </ul>
-            </div>
-        </section>
-		
-        <div class="container">
-            <article>
-
-                <h2>Overview</h2>
-                <figure>
-                    <img src="images/production_logo.png" alt="Icon of Hololive.">
-                    <figcaption>Icon of Hololive.</figcaption>
-                </figure>
-                <p>Hololive Production (Japanese: ホロライブプロダクション, stylized in lowercase) is a virtual YouTuber (VTuber) talent agency owned by Japanese tech entertainment company Cover Corporation. As of 2021, the agency manages more than 50 VTubers between its branches; talents included Usada Pekora, Houshou Marine, Shirakami Fubuki, Inugami Korone, Gawr Gura, Mori Calliope, Minato Aqua, and Akai Haato, among many others. With Anycolor's Nijisanji, Hololive is one of the two major corporate VTuber agencies.</p>	
+        <div class="layout_container">
+            <article id="about_hololive">
+                <p>
+                    With over 50 million fans on YouTube, hololive Production is a popular VTuber agency not only in Japan but all over the world.
+                </p>
+                <p>
+                    The name Hololive was initially used for Cover's 3D stream distribution app, launched in December 2017, and later its female VTuber agency, whose first generation debuted from May to June 2018.
+                </p>
             </article>
-        
-            <aside class="box">
-                
-                <h2>Fun Facts</h2>
-                <ul>
-                    <li>The name Hololive was initially used for Cover's 3D stream distribution app, launched in December 2017, and later its female VTuber agency, whose first generation debuted from May to June 2018.</li>
-                    <li>In December 2019, this Hololive branch was merged with Cover's male Holostars agency and INoNaKa (INNK) Music label to form a unified "Hololive Production" brand. In 2019 and 2020, the agency debuted three overseas branches: Hololive China (since disbanded), Hololive Indonesia, and Hololive English.</li>
-                </ul>
-            </aside>
+
+            <article id="about_vtuber">
+                <p>
+                    A VTuber (ブイチューバー, buichūbā), or virtual YouTuber (Japanese: バーチャルユーチューバー, Hepburn: bācharu yūchūbā), is an online entertainer who uses a virtual avatar generated using computer graphics and real-time motion capture software or technology. A digital trend that originated in Japan in the mid-2010s and, since the early 2020s, has become an international online phenomenon,[1] a majority of VTubers are English and Japanese-speaking YouTubers or live streamers who use anime-inspired avatar designs. By 2020, there were more than 10,000 active VTubers.[2] Although the term alludes to the video platform YouTube, virtual YouTubers also appear on platforms including Niconico, Twitch and Bilibili.
+                </p>
+            </article>
+
         </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="js/menu-highlighter.js"></script>
-		
-		<footer class="trailer">
-		
-			<h2 class="logo logo_trail">References</h2>
-			<ul class="reference_list">
-				<li>[A look at Hololive and the future - an interview with a Tokyo XR startup entrepreneur]. MoguLive (Interview) (in Japanese). 23 August 2019. Retrieved 20 September 2020.  <a href="https://www.moguravr.com/tokyo-xr-startups-interview/" target="_blank">Moguravr (JP)</a></li>
-				<li>[Announcing the launch of "Hololive", an application for live streaming where you can meet the characters] (in Japanese). Cover. 21 December 2017. Retrieved 2 October 2020.   <a href="https://cover-corp.com/2017/12/21/hololive/" target="_blank">Cover Corporation's Offical Page</a></li>
-				<li>Hirota, Minoru (19 May 2017).  [One step closer to the future where anyone can be a beautiful girl. Performing in VR and watching – even touching?! – on a smartphone.]. PANORA (in Japanese). Retrieved 20 September 2020.  <a href="https://panora.tokyo/28438/" target="_blank">Panora (JP)</a></li>
-			</ul>
-	
-			<h2 class="logo logo_trail">Sources</h2>
-			<ul>
-				<li>Wikipedia - Hololive: <a href="hthttps://virtualyoutuber.fandom.com/wiki/Hololive#Further_Readings" target="_blank">Wikipedia</a></li>
-				<li>Wikipedia - Hololive Production: <a href="https://en.wikipedia.org/wiki/Hololive_Production" target="_blank">Wikipedia</a></li>
-			</ul>
-		</footer>
 
         
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="js/menu-highlighter.js"></script>
 
 
-        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-        
-        
-        <script src="sss/sss.js"></script>
-        <script>
-        $('.slider').sss();
-        </script>
-
-
-        <script>
-        $( "#accordion" ).accordion();
-        </script>
     </body>
 </html>
