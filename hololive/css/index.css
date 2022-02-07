@@ -11,7 +11,7 @@
 for better readability on text*/
 #header_bg::before{ /* The ::before selector indicates that the following
     content is going to be added _before_ the image */
-    content: ""; /* The ::before selector requires content
+    content: ""; /* The ::before selector requires content */
     display: block!important; /* !important prioritizes the given property */
     position: absolute;
     top: 0;
