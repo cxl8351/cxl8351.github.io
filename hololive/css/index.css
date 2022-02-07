@@ -1,12 +1,3 @@
-/* Forces elements within the container to be
-centered inside a specified width of the viewport*/
-.layout_container{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    max-width: 940px;
-}
-
 /* Make the background image take up the entire width of the viewport, always*/
 #header_bg{
 	position: relative;
