@@ -1,0 +1,16 @@
+/*Targets the class .gen, selecting its <ul>*/
+.gen ul {
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+}
+
+.gen ul li h4{
+    font-weight: bold;
+    margin:0;
+}
+
+.gen ul li h5{
+    font-style: italic;
+    margin:0;
+}

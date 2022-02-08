@@ -6,3 +6,7 @@ centered inside a specified width of the viewport*/
     margin: 0 auto;
     max-width: 940px;
 }
+
+.dashed{
+    text-decoration: line-through;
+}
