@@ -1,16 +1,45 @@
+body{
+    background: #a7edff;
+}
+
 /*Targets the class .gen, selecting its <ul>*/
 .gen ul {
     list-style-type: none;
     display: flex;
     align-items: stretch;
 }
+.branch ul{
+    list-style-type: none;
+}
 
+/* Talent name */
 .gen ul li h4{
     font-weight: bold;
     margin:0;
 }
 
+/* JP Talent name */
 .gen ul li h5{
     font-style: italic;
     margin:0;
 }
+
+.layout-container{
+    text-align: center;
+    border-radius: 25px;
+    background: white;
+}
+
+/* Displays the talent images in an even spread of the container*/
+.branch ul{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+}
+
+
+
+/* TODO: 
+    - BG color?
+    - Separate gens via colors?
+    */

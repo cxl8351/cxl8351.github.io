@@ -4,7 +4,7 @@ centered inside a specified width of the viewport*/
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 940px;
+    max-width: 1440px;
 }
 
 .dashed{
