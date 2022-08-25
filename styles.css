@@ -3,10 +3,15 @@ body {
     background: #87cfff;
 }
 
-.layout_container {
+.layout-container {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
     max-width: 1280px;
     width: 90%;
+}
+
+.image-constraint{
+    width:200px;
+    height:200px;
 }
